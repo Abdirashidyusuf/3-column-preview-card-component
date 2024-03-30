@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Lexend Deca", sans-serif;
+}
+.column-preview{
+    color: #fff;
+    max-width: 340px;
+    font-family: sans-serif;
+    padding-left: 50px;
+
+}
+.car-icon img{
+    margin-top: 50px;
+}
+.title-txt{
+    color: hsl(0, 0%, 95%);
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.title-bdy{
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 75%;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    line-height: 24px;
+    margin-bottom: 70px;
+}
+.btn{
+    background: #fff;
+    font-size: 14px;
+    padding: 10px;
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 50px;
+    width: 55%;
+    margin-bottom: 50px;
+
+}
+.box1{
+    background: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.box2{
+    background: hsl(184, 100%, 22%);
+}
+.box3{
+    background:  hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.box1 .btn{
+    color: hsl(31, 77%, 52%);
+}
+.box2 .btn{
+    color: hsl(184, 100%, 22%);
+}
+.box3 .btn{
+    color: hsl(179, 100%, 13%);
+}
+.box1 .btn:hover{
+    background: none;
+    color: #fff;
+}
+.box2 .btn:hover{
+    background: none;
+    color: #fff;
+}
+.box3 .btn:hover{
+    background: none;
+    color: #fff;
+}
+
